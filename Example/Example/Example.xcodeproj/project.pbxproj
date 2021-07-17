@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A521723F26A2CCCD00EF95F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A521723D26A2CCCD00EF95F0 /* Main.storyboard */; };
 		A521724126A2CCCF00EF95F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521724026A2CCCF00EF95F0 /* Assets.xcassets */; };
 		A521724426A2CCCF00EF95F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A521724226A2CCCF00EF95F0 /* LaunchScreen.storyboard */; };
+		A521725026A2CDF000EF95F0 /* CombineExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = A521724F26A2CDF000EF95F0 /* CombineExtensions */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A521725026A2CDF000EF95F0 /* CombineExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				A521723626A2CCCD00EF95F0 /* Example */,
 				A521723526A2CCCD00EF95F0 /* Products */,
+				A521724E26A2CDF000EF95F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		A521724E26A2CDF000EF95F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = Example;
+			packageProductDependencies = (
+				A521724F26A2CDF000EF95F0 /* CombineExtensions */,
+			);
 			productName = Example;
 			productReference = A521723426A2CCCD00EF95F0 /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -345,6 +358,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A521724F26A2CDF000EF95F0 /* CombineExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CombineExtensions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A521722C26A2CCCD00EF95F0 /* Project object */;
 }
