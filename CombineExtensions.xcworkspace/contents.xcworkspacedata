@@ -7,4 +7,7 @@
    <FileRef
       location = "group:">
    </FileRef>
+   <FileRef
+      location = "group:/Users/shunya/Documents/Project/CombineExtensions/iOS/.github/workflows/test.yml">
+   </FileRef>
 </Workspace>
