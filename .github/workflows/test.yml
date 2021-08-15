@@ -2,7 +2,7 @@ name: Test
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     types: [ opened, synchronize ]
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
       
     - name: Run test
       run: |
-        xcodebuild test -scheme CombineExtensions -destination "platform=iOS Simulator, name=iPhone 11 Pro Max"
+        xcodebuild test -scheme CombineExtensions -destination "platform=iOS Simulator,name=iPhone 12"
